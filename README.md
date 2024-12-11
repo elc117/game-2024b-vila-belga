@@ -61,14 +61,7 @@ Vila Belga Game é um jogo educativo desenvolvido em Java usando o framework Lib
 - BitmapFont: Renderização de texto em jogos 2D
 - Input: Gerenciamento de entrada do usuário
 
-## Contribuição
 
-Contribuições são bem-vindas! Por favor, abra uma issue ou envie um pull request.
+## Autores
 
-## Licença
-
-[Especifique a licença do seu projeto]
-
-## Autor
-
-[Seu Nome ou Nickname]
+[Eduardo Possani e Gloria Pedroso]
