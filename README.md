@@ -1,33 +1,74 @@
-# Belga
+# Vila Belga Game
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+## Descrição do Projeto
 
-This project was generated with a template including simple application launchers and an `ApplicationAdapter` extension that draws libGDX logo.
+Vila Belga Game é um jogo educativo desenvolvido em Java usando o framework LibGDX, que explora a história da Vila Belga em Santa Maria, Rio Grande do Sul. O jogo apresenta um quiz interativo com perguntas sobre a origem, características e importância histórica da Vila Belga.
 
-## Platforms
+## Funcionalidades
 
-- `core`: Main module with the application logic shared by all platforms.
-- `html`: Web platform using GWT and WebGL. Supports only Java projects.
+- Quiz educativo com 5 perguntas sobre a Vila Belga
+- Interface gráfica desenvolvida com LibGDX
+- Sistema de pontuação
+- Música de fundo e efeitos sonoros
+- Tela inicial com instruções de início
 
-## Gradle
+## Como Jogar
 
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
+1. Inicie o jogo
+2. Na tela inicial, pressione ENTER para começar
+3. Responda às perguntas usando as teclas numéricas (1-4)
+4. Ao final do quiz, veja sua pontuação
+5. Pressione R para reiniciar o jogo
 
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `html:dist`: compiles GWT sources. The compiled application can be found at `html/build/dist`: you can use any HTTP server to deploy it.
-- `html:superDev`: compiles GWT sources and runs the application in SuperDev mode. It will be available at [localhost:8080/html](http://localhost:8080/html). Use only during development.
-- `idea`: generates IntelliJ project data.
-- `test`: runs unit tests (if any).
+## Requisitos
 
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+- Java Development Kit (JDK) 8 ou superior
+- LibGDX framework
+
+## Instalação
+
+1. Clone o repositório
+2. Importe o projeto em sua IDE
+3. Baixe as dependências do LibGDX
+4. Configure o classpath e as bibliotecas necessárias
+
+## Tecnologias Utilizadas
+
+- Linguagem: Java
+- Framework: LibGDX
+- Renderização: SpriteBatch
+- Fonte: BitmapFont
+- Gerenciamento de Input: Classe Input do LibGDX
+
+## Referências e Recursos
+
+### LibGDX (Framework de Desenvolvimento de Jogos)
+- Site Oficial: https://libgdx.com/
+- Repositório GitHub: https://github.com/libgdx/libgdx
+- Documentação: https://libgdx.com/dev/
+
+### Tutoriais e Documentação
+- Tutoriais do LibGDX: 
+  - https://github.com/libgdx/libgdx/wiki/Tutorials
+  - https://github.com/libgdx/libgdx/wiki/Starter-classes-and-configuration
+
+### Inspirações e Conceitos
+- Padrões de design para gerenciamento de estado de jogo
+- Conceitos de UI em jogos 2D
+
+### Componentes Específicos
+- SpriteBatch: Classe nativa do LibGDX para renderização
+- BitmapFont: Renderização de texto em jogos 2D
+- Input: Gerenciamento de entrada do usuário
+
+## Contribuição
+
+Contribuições são bem-vindas! Por favor, abra uma issue ou envie um pull request.
+
+## Licença
+
+[Especifique a licença do seu projeto]
+
+## Autor
+
+[Seu Nome ou Nickname]
