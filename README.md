@@ -63,6 +63,76 @@ Vila Belga Game é um jogo educativo desenvolvido em Java usando o framework Lib
 
 ![imagem_2024-12-11_210417390](https://github.com/user-attachments/assets/fcbcd7e8-c627-4a5a-94aa-ada46709c9f0)
 
+## Diagrama de Classes do Vila Belga Game
+O diagrama representa a estrutura organizacional do jogo, mostrando as principais classes e suas interações:
+1. Classe Main
+
+Função principal: Gerenciar o ciclo de vida do jogo
+Responsabilidades:
+
+Inicialização do jogo (create())
+Renderização contínua (render())
+Gerenciamento de recursos (dispose())
+
+
+Componentes principais:
+
+SpriteBatch: Para renderização de gráficos
+Texture: Para imagens do jogo
+Music: Para música de fundo
+QuizManager: Para gerenciar o quiz
+
+
+
+2. Classe QuizManager
+
+Função: Gerenciar a lógica do quiz
+Características:
+
+Armazena perguntas e respostas
+Controla o estado atual do quiz
+Gerencia a pontuação
+
+
+## Métodos principais:
+
+iniciarQuiz(): Começa um novo quiz
+renderQuiz(): Renderiza perguntas e opções
+verificarResposta(): Valida as respostas do jogador
+
+
+
+## Relações entre Classes
+
+A classe Main contém (composição) o QuizManager
+Usa múltiplos componentes do LibGDX como:
+
+Texture: Para imagens
+SpriteBatch: Para renderização
+BitmapFont: Para texto
+Music: Música de fundo
+Sound: Efeitos sonoros
+
+
+
+## Componentes LibGDX Importantes
+
+SpriteBatch: Responsável por renderizar gráficos
+BitmapFont: Renderiza texto no jogo
+Texture: Carrega e gerencia imagens
+Music: Reproduz música de fundo
+Sound: Reproduz efeitos sonoros
+FitViewport: Gerencia o viewport do jogo
+
+## Fluxo de Funcionamento
+
+Classe Main inicializa o jogo
+QuizManager é instanciado
+Renderização acontece continuamente
+Entrada do usuário é processada
+Quiz é gerenciado com pontuação e estad
+
+
 ## Autores
 
 [Eduardo Possani e Gloria Pedroso]
