@@ -65,7 +65,7 @@ Vila Belga Game é um jogo educativo desenvolvido em Java usando o framework Lib
 
 ## Diagrama de Classes do Vila Belga Game
 O diagrama representa a estrutura organizacional do jogo, mostrando as principais classes e suas interações:
-1. Classe Main
+## Classe Main
 
 Função principal: Gerenciar o ciclo de vida do jogo
 Responsabilidades:
@@ -84,7 +84,7 @@ QuizManager: Para gerenciar o quiz
 
 
 
-2. Classe QuizManager
+## Classe QuizManager
 
 Função: Gerenciar a lógica do quiz
 Características:
