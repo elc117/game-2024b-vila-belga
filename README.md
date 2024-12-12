@@ -111,8 +111,6 @@ Texture: Para imagens
 SpriteBatch: Para renderização
 BitmapFont: Para texto
 Music: Música de fundo
-Sound: Efeitos sonoros
-
 
 
 ## Componentes LibGDX Importantes
@@ -121,7 +119,6 @@ SpriteBatch: Responsável por renderizar gráficos
 BitmapFont: Renderiza texto no jogo
 Texture: Carrega e gerencia imagens
 Music: Reproduz música de fundo
-Sound: Reproduz efeitos sonoros
 FitViewport: Gerencia o viewport do jogo
 
 ## Fluxo de Funcionamento
