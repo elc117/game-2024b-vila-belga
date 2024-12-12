@@ -25,12 +25,6 @@ Vila Belga Game é um jogo educativo desenvolvido em Java usando o framework Lib
 - Java Development Kit (JDK) 8 ou superior
 - LibGDX framework
 
-## Instalação
-
-1. Clone o repositório
-2. Importe o projeto em sua IDE
-3. Baixe as dependências do LibGDX
-4. Configure o classpath e as bibliotecas necessárias
 
 ## Tecnologias Utilizadas
 
