@@ -40,6 +40,10 @@ Vila Belga Game é um jogo educativo desenvolvido em Java usando o framework Lib
 - Site Oficial: https://libgdx.com/
 - Repositório GitHub: https://github.com/libgdx/libgdx
 - Documentação: https://libgdx.com/dev/
+- Documentação: https://docs.oracle.com/javase/tutorial/
+- https://libgdx.com/wiki/start/a-simple-game
+- Materiais de apoio disponibilizados pela professora
+
 
 ### Tutoriais e Documentação
 - Tutoriais do LibGDX: 
